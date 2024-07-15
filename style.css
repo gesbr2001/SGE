@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0a0a0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px rgba(0, 44, 190, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.form input {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #022186;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #ffffff;
+    color: #022186;
+    border: 1px solid#022186;
+    box-shadow: 5px 2.5px 2.5px #022186;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button.update, button.delete {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.update {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.update:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background-color: #85000d;
+    color: #fff;
+}
+
+button.delete:hover {
+    background-color: #dc3545;
+}
+
+
+
+/*-------------------------------------------*/
+
+.botao-modo {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    
+}
+
+/* Tema claro */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Tema escuro */
+body.dark-mode {
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 1px 10px rgba(0, 44, 190, 0.1);
+        width: 80%;
+        max-width: 600px;
+    }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+    
+    .form input {
+        width: 45%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .form button {
+        padding: 8px 16px;
+        border: none;
+        background-color: #022186;
+        color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .form button:hover {
+        background-color: #ffffff;
+        color: #022186;
+        border: 1px solid#022186;
+        box-shadow: 5px 2.5px 2.5px #022186;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+    }
+    
+    button.update, button.delete {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button.update {
+        background-color: #007bff;
+        color: #fff;
+    }
+    
+    button.update:hover {
+        background-color: #0056b3;
+    }
+    
+    button.delete {
+        background-color: #85000d;
+        color: #fff;
+    }
+    
+    button.delete:hover {
+        background-color: #dc3545;
+    }
+}
+
+
+
+
+
+
+/* Estilo do botão */
+button {
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botão em modo claro */
+body.light-mode button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Botão em modo escuro */
+body.dark-mode button {
+    background-color: #ffffff;
+    color: #000000;
+}
